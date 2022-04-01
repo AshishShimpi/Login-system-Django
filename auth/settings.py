@@ -123,3 +123,8 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Email settings
+# Currently using MailHog as fake server to hog emails  
+EMAIL_HOST = '0.0.0.0'
+EMAIL_PORT = 1025

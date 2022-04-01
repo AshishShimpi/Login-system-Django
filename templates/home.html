@@ -28,11 +28,11 @@
 
 
         {% if user.is_authenticated %}
-            <h1>Welcome {{fname}} to Authentication System</h1>
+            <h1>Welcome ---{{fname}} to Authentication System</h1>
             <p>You are logged In</p>
             <button type="submit"> <a href="signout">SignOut</a> </button>
         {% else %}
-            <h1>Welcome to Authentication System</h1>
+            <h1>Welcome to new Authentication System</h1>
             <button type="submit"><a href="signup">Signup</a> </button>
             <button type="submit"><a href="signin">SignIn</a> </button>
         {% endif %}
